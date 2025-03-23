@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -27,4 +28,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setText("Donatas K. Lab 1!");
     }
-}
+    public void changeTextColor(View view) {
+        TextView tvMain = findViewById(R.id.tvMain);
+        tvMain.setTextColor(Color.RED);
+}}
